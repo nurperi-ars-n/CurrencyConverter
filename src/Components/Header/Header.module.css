@@ -1,0 +1,45 @@
+.header {
+	background-color: #282016;
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+}
+
+.headerBox {
+	width: 100%;
+	max-width: 1170px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+}
+
+.headerLogoBox {
+	display: flex;
+}
+
+h1 {
+	font-size: 2rem;
+	font-style: italic;
+	color: rgb(201, 199, 218);
+}
+.headerCurrencyIcon {
+	margin: 5px 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.currency {
+	display: flex;
+	color: rgb(201, 199, 218);
+}
+
+.currencyUSD {
+	padding-left: 35px;
+	display: flex;
+	flex-direction: column;
+}
+
+.currencyValue {
+	text-align: center;
+}
